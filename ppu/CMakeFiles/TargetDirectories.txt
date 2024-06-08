@@ -1,0 +1,3 @@
+D:/amii/ppu/CMakeFiles/CGFrameWork.dir
+D:/amii/ppu/CMakeFiles/ALL_BUILD.dir
+D:/amii/ppu/CMakeFiles/ZERO_CHECK.dir

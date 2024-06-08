@@ -1,0 +1,10 @@
+^D:\AMII\PPU\CMAKEFILES\83DEB8FBF48E5992198BED7614CD8832\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/amii/PPUViewer2024-master -BD:/amii/ppu --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/amii/ppu/CGFrameWork.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
